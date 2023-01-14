@@ -25,10 +25,11 @@ div{
 .insertbutton{
    background-color: black;
     color: whitesmoke;
-    margin-top: 40px;
+    margin-top: 100px;
     border-radius: 30px;
     font-weight: bold;
-    width: 170px;
+    width: 100px;
+    margin-left: 250px;
 
 }
 table{
@@ -37,6 +38,10 @@ table{
 }
 td{
     font-weight: bold;
+}
+.buteditgar{
+  border: none;
+  background-color: transparent;
 }
 
 label{
@@ -471,7 +476,7 @@ table.dataTable td {
 }
 .dataTables_wrapper .dataTables_length select {
   border: 1px solid #aaa;
-  border-radius: 3px;
+  border-radius: 20px;
   padding: 5px;
   background-color: transparent;
   padding: 4px;
@@ -508,7 +513,7 @@ table.dataTable td {
   cursor: pointer;
   color: inherit !important;
   border: 1px solid transparent;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
   color: inherit !important;

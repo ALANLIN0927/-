@@ -1,8 +1,8 @@
 .top{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 30px;
+    justify-content: space-around;
+    margin-bottom: 60px;
 }
 div{
     width: 800px;
@@ -10,9 +10,16 @@ div{
 }
 #h2{
     margin-top: 40px;
-    margin-left:30px;
+    margin-left:80px;
     font-weight: bold;
+  
     
+}
+.topbutton{
+      display: flex;
+      justify-content:space-around;
+      
+
 }
 .inserselecttext
 {
@@ -27,13 +34,13 @@ div{
    background-color: black;
    color: whitesmoke;
    font-weight: bold;
-   margin-top: 40px;
+   margin-top: 100px;
    border-radius: 30px;
-   width: 170px;
+   width: 100px;
   
 }
 select{
-    width: 100px;
+
     border-radius: 20px;
     margin-bottom: 200px;
 }
@@ -41,7 +48,10 @@ table{
     margin-left: 30px;
     font-weight: bold;
 }
-
+.buteditgar{
+    border: none;
+    background-color: transparent;
+}
 
 
 label{
@@ -471,7 +481,7 @@ table.dataTable td {
 }
 .dataTables_wrapper .dataTables_length select {
   border: 1px solid #aaa;
-  border-radius: 3px;
+  border-radius: 30px;
   padding: 5px;
   background-color: transparent;
   padding: 4px;
@@ -481,8 +491,8 @@ table.dataTable td {
   text-align: right;
 }
 .dataTables_wrapper .dataTables_filter input {
-  border: 1px solid red;
-  border-radius: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
   padding: 5px;
   background-color: transparent;
   margin-left: 3px;
@@ -508,12 +518,16 @@ table.dataTable td {
   cursor: pointer;
   color: inherit !important;
   border: 1px solid transparent;
-  border-radius: 2px;
+  border-radius: 10px;
+ 
+  
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
   color: inherit !important;
   border: 1px solid rgba(0, 0, 0, 0.3);
+
   background-color: rgba(230, 230, 230, 0.1);
+
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(230, 230, 230, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.1)));
   /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
